@@ -1,8 +1,5 @@
-# [am-serv00-vmess](https://github.com/amclubs/am-serv00-vmess)
-▶️ **新人[YouTube](https://youtube.com/@AM_CLUB)** 需要您的支持，请务必帮我**点赞**、**关注**、**打开小铃铛**，***十分感谢！！！*** ✅
-</br>🎁 不要只是下载或Fork。请 **follow** 我的GitHub、给我所有项目一个 **Star** 星星（拜托了）！你的支持是我不断前进的动力！ 💖
-</br>✅**解锁更多技术请访问[【个人博客】](https://am.809098.xyz)**,加入TG群[【AM科技 | 分享交流群】](https://t.me/AM_CLUBS)
-#
+# [am-serv00-vmess](https://github.com/duki-web/serv00-vmess)
+
 # 免责声明
 
 ### 用途
@@ -36,8 +33,6 @@
 
 ![image](https://github.com/user-attachments/assets/57c3ff7b-ae42-42c0-87ac-acb1b5bd177a)
 
-### 2、加下群发送关键字 ssh 获取连接工具
-Telegram频道：[@AM_CLUBS](https://t.me/AM_CLUBS)
 
 ## 二、安装前需准备的初始设置
 - 1、登入邮件里面发你的 DevilWEB webpanel 后面的网址，进入网站后点击 Change languag 把面板改成英文
@@ -62,7 +57,7 @@ ssh <username>@<panel>.serv00.com
 
 - 2、进入到面板后复制下面代码一键安装
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/amclubs/am-serv00-vmess/main/install_serv00_vmess.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/duki-web/serv00-vmess/main/install_serv00_vmess.sh)
 ```
 
 - 3、保活命令（有时母鸡重启后，会删除所有进程和定时任务，所以要手工重新执行下面保活命令，让定时任务生效，不要问为什么，因为是免费的后遗证）
@@ -113,7 +108,7 @@ HTTPS：443，2053，2083，2087，2096，8443
 ## 五、卸载VMess
 ### 一键卸载命令，根据提示，选择2（2. 卸载sing-box） 直接卸载完成
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/amclubs/am-serv00-vmess/main/install_serv00_vmess.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/duki-web/serv00-vmess/main/install_serv00_vmess.sh)
 ```
 
 
