@@ -1,4 +1,4 @@
-# [am-serv00-vmess](https://github.com/duki-web/serv00-vmess)
+# [serv00-vmess](https://github.com/duki-web/serv00-vmess)
 
 # 免责声明
 
