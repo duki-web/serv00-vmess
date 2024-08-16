@@ -422,14 +422,8 @@ sleep 3
 menu() {
    clear
    echo ""
-   purple "=== serv00 | AM科技 vmess一键安装脚本 ===\n"
-   echo -e "${green}脚本地址：${re}${yellow}https://github.com/eooce/Sing-box${re}\n"
-   echo -e "${green}反馈论坛：${re}${yellow}https://bbs.vps8.me${re}\n"
-   echo -e "${green}TG反馈群组：${re}${yellow}https://t.me/vps888${re}\n"
    purple "根据老王脚本魔改简化版本，转载请著名出处，请勿滥用\n"
-   echo -e "${green}脚本地址：${re}${yellow}https://github.com/amclubs/am-serv00-vmess${re}\n"
-   echo -e "${green}博客：${re}${yellow}https://am.809098.xyz${re}\n"
-   echo -e "${green}TG反馈群组：${re}${yellow}https://t.me/AM_CLUBS${re}\n"
+   echo -e "${green}脚本地址：${re}${yellow}https://github.com/duki-web/serv00-vmess${re}\n"
    purple "根据老王脚本魔改简化版本，转载请著名出处，请勿滥用\n"
    green "1. 安装sing-box"
    echo  "==============="
@@ -439,17 +433,20 @@ menu() {
    echo  "==============="
    yellow "4. 清理所有进程"
    echo  "==============="
+   yellow "5. 安装哪吒探针监控端"
+   echo  "==============="
    red "0. 退出脚本"
    echo "==========="
-   reading "请输入选择(0-3): " choice
+   reading "请输入选择(0-5): " choice
    echo ""
     case "${choice}" in
         1) install_singbox ;;
         2) uninstall_singbox ;; 
         3) cat $WORKDIR/list.txt ;; 
 	4) kill_all_tasks ;;
+ 	5) read_nz_variables ;;
         0) exit 0 ;;
-        *) red "无效的选项，请输入 0 到 3" ;;
+        *) red "无效的选项，请输入 0 到 5" ;;
     esac
 }
 menu
